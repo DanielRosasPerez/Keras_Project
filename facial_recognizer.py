@@ -34,7 +34,7 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 cap = cv2.VideoCapture(0)
 
 # Cargamos nuestro modelo para el reconcimiento de rostros:
-cnn_reconocimiento_rostro = load_model("Clasificador_Bordes_1000.h5")
+cnn_reconocimiento_rostro = load_model("Clasificador_Bordes_30.h5")
 
 # Declaramos un diccionario para saber que persona se encuentra en cámara:
 Personas = {0: "Dany", 1:"Diana", 2:"Mama", 3:"Papa", 4:"Tripi"}
