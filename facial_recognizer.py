@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 import os, shutil, io
 import skimage.io, skimage.feature
 from PIL import Image
