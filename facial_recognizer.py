@@ -200,7 +200,7 @@ if posibles_sospechosos: # En caso de haya algún sospechoso.
 
     fotos = [sospechoso for sospechoso in sospechosos_en_dir[-nuevos_sospechosos:]]
 
-    enviar_fotos("daniel020197ss@gmail.com","daniel020197ss@gmail.com",fotos) # Enviamos las fotos al correo.
+    enviar_fotos("INSERTA_TU_CORREO@gmail.com","CORREO_DESTINATARIO@gmail.com",fotos) # Enviamos las fotos al correo.
 
 else:
 
